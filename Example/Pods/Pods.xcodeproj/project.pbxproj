@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085402352A5A09F789CD0C7A58293D6E /* Volumer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF767C31E0472626FB75FF462DC5D700 /* Volumer.swift */; };
+		22A3F0CA9BA5BAFA7D70E6B132CB82A8 /* Pods-Volumer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B14BFD336021BE9245320FE22EAFB67 /* Pods-Volumer_Tests-dummy.m */; };
+		49AB484EDD442B4454CFC0E0A5556FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5518A196FFB9621004F32C943693463C /* Volumer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A3D6766E8E5E470CF2B79E0CEB9406E8 /* Volumer.bundle */; };
+		71FB418C94DDED293B2379B34CC0DB47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		C8C2DE4B3A1E0E3DA4180DA7139BE519 /* Pods-Volumer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B31D9199F9097FA0344420FDA6BD5C0 /* Pods-Volumer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBC8E308A9A66CD818D945974A4F67F9 /* Volumer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8C80C8783D2FC8CFA2101DF8C9B5793 /* Volumer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1CB4F0A155AD0D0E924289C240EC328 /* Pods-Volumer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8764A9AE3EB13A2D551C1FF27A108A65 /* Pods-Volumer_Example-dummy.m */; };
+		D37CF8C04E7EB0E8E699FA19A2F5A0C0 /* Pods-Volumer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04704BB28B5A2E7FECE24F33910230ED /* Pods-Volumer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0DD33E0A1B3C29A218A725BA2E1E757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F6F8C0CAE4A0B3C65A12EBCF3FB9238F /* Volumer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4632B0D4DC5E31D3AC2BF3925D9A82B9 /* Volumer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		269283FABB9ECC6BD48BD401C2770AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5299D9541EEAB4745A7844737B20521A;
+			remoteInfo = Volumer;
+		};
+		318F0BA3277B5B382E49804A7BD838E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5299D9541EEAB4745A7844737B20521A;
+			remoteInfo = Volumer;
+		};
+		3F89553A2B010D5E1419391C68ABB851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F4582D68BA7E51B0E3D48B2CE86870F;
+			remoteInfo = "Volumer-Volumer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04704BB28B5A2E7FECE24F33910230ED /* Pods-Volumer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Volumer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		13C65A881FEE47A2419C81E73C57B8EB /* Pods-Volumer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Volumer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1AE4F0B0AC108573B0D15B4A5C010804 /* Pods-Volumer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Volumer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DF7B62D62122F12E62CB2CABA6BB4C1 /* Pods-Volumer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Volumer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1E93D7930C30D0F3D75824603289E526 /* Pods_Volumer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Volumer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		271BE21F208C34481C1FDA20E59C800A /* Pods-Volumer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Volumer_Tests.modulemap"; sourceTree = "<group>"; };
+		27CE5D58026D34980987F78F6E178B7C /* Pods-Volumer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Volumer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4632B0D4DC5E31D3AC2BF3925D9A82B9 /* Volumer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Volumer-dummy.m"; sourceTree = "<group>"; };
+		4B14BFD336021BE9245320FE22EAFB67 /* Pods-Volumer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Volumer_Tests-dummy.m"; sourceTree = "<group>"; };
+		4EE5EC77258C052514A4A5CBA0E91E5F /* Pods-Volumer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Volumer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D4C28761BD7174913077257DA06DF38 /* Pods-Volumer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Volumer_Tests-resources.sh"; sourceTree = "<group>"; };
+		656B71394725BFD032E076FF118812A0 /* Pods-Volumer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Volumer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B31D9199F9097FA0344420FDA6BD5C0 /* Pods-Volumer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Volumer_Example-umbrella.h"; sourceTree = "<group>"; };
+		77E8E1A875F9983FAAB093574278565D /* Volumer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Volumer-prefix.pch"; sourceTree = "<group>"; };
+		797AB0384CCC37B0C9B3DFE02F85DE4E /* Pods-Volumer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Volumer_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8764A9AE3EB13A2D551C1FF27A108A65 /* Pods-Volumer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Volumer_Example-dummy.m"; sourceTree = "<group>"; };
+		9D0524899C5FCD29CF9CAC158F0C42D6 /* Pods-Volumer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Volumer_Example.modulemap"; sourceTree = "<group>"; };
+		A397BC54975020AEC2654B1BA98B7537 /* Pods-Volumer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Volumer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A3D6766E8E5E470CF2B79E0CEB9406E8 /* Volumer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Volumer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CC8710685FFA608DEC4C23405E694B /* Volumer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Volumer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C80C8783D2FC8CFA2101DF8C9B5793 /* Volumer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Volumer-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C09EA3E6333A4A3673DC3F05E44CE64A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDFF808BCF9343473AE5C03382AAA00 /* Pods-Volumer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Volumer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D35DEC5A6B9BF23A86278B2B9BB9B93E /* Pods-Volumer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Volumer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4AB6080E1070E10BB59FE3BED63389E /* Volumer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Volumer.xcconfig; sourceTree = "<group>"; };
+		E035F59F63D18D70B24C8A8BF0F6078F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9351AC9D573C76BBD14B113DD0C307F /* Volumer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Volumer.modulemap; sourceTree = "<group>"; };
+		F0C3B7A45A9F06B8F5FE78E870CF3A29 /* Pods_Volumer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Volumer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F34BF1BAC15815829B943DA052284DDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B6F7757CC655B1B089235BDAC2F052 /* Pods-Volumer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Volumer_Example-resources.sh"; sourceTree = "<group>"; };
+		FF767C31E0472626FB75FF462DC5D700 /* Volumer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Volumer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1462D786D10B03E4C1BEAF139E6FB192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DD33E0A1B3C29A218A725BA2E1E757 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14BFA0AABA36B1184B6486E67750B12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71FB418C94DDED293B2379B34CC0DB47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C02423A89E3564AF3D02435A6728213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AB484EDD442B4454CFC0E0A5556FCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F79D0F4024EB5050E4EE7CB79D910ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		209F28AC742614DAF237841E44A51989 /* Pods-Volumer_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F34BF1BAC15815829B943DA052284DDD /* Info.plist */,
+				271BE21F208C34481C1FDA20E59C800A /* Pods-Volumer_Tests.modulemap */,
+				1DF7B62D62122F12E62CB2CABA6BB4C1 /* Pods-Volumer_Tests-acknowledgements.markdown */,
+				4EE5EC77258C052514A4A5CBA0E91E5F /* Pods-Volumer_Tests-acknowledgements.plist */,
+				4B14BFD336021BE9245320FE22EAFB67 /* Pods-Volumer_Tests-dummy.m */,
+				A397BC54975020AEC2654B1BA98B7537 /* Pods-Volumer_Tests-frameworks.sh */,
+				5D4C28761BD7174913077257DA06DF38 /* Pods-Volumer_Tests-resources.sh */,
+				04704BB28B5A2E7FECE24F33910230ED /* Pods-Volumer_Tests-umbrella.h */,
+				656B71394725BFD032E076FF118812A0 /* Pods-Volumer_Tests.debug.xcconfig */,
+				13C65A881FEE47A2419C81E73C57B8EB /* Pods-Volumer_Tests.release.xcconfig */,
+			);
+			name = "Pods-Volumer_Tests";
+			path = "Target Support Files/Pods-Volumer_Tests";
+			sourceTree = "<group>";
+		};
+		4D62E2A6DE586A4BC8DBBDF2E8B3CCB6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				907C66FC293D7354A03A444B8282E362 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4DAC0EC0C60DC3571BC3F7FEA8116BC5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2C50F0B595721B7575B35A2C62141 /* Pods-Volumer_Example */,
+				209F28AC742614DAF237841E44A51989 /* Pods-Volumer_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BD7DC119C54E4DF29320E1D7FD07E15E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AAF338184549441E9093E5044AAC710C /* Products */,
+				4DAC0EC0C60DC3571BC3F7FEA8116BC5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		907C66FC293D7354A03A444B8282E362 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF767C31E0472626FB75FF462DC5D700 /* Volumer.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AAF338184549441E9093E5044AAC710C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0C3B7A45A9F06B8F5FE78E870CF3A29 /* Pods_Volumer_Example.framework */,
+				1E93D7930C30D0F3D75824603289E526 /* Pods_Volumer_Tests.framework */,
+				A3D6766E8E5E470CF2B79E0CEB9406E8 /* Volumer.bundle */,
+				A5CC8710685FFA608DEC4C23405E694B /* Volumer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD7DC119C54E4DF29320E1D7FD07E15E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C25E249828935A0E4E65B9DE795845C0 /* Volumer */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C25E249828935A0E4E65B9DE795845C0 /* Volumer */ = {
+			isa = PBXGroup;
+			children = (
+				4D62E2A6DE586A4BC8DBBDF2E8B3CCB6 /* Pod */,
+				D3F5FD926BEAD3C7027C6FD50EC5997C /* Support Files */,
+			);
+			name = Volumer;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CDE2C50F0B595721B7575B35A2C62141 /* Pods-Volumer_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C09EA3E6333A4A3673DC3F05E44CE64A /* Info.plist */,
+				9D0524899C5FCD29CF9CAC158F0C42D6 /* Pods-Volumer_Example.modulemap */,
+				1AE4F0B0AC108573B0D15B4A5C010804 /* Pods-Volumer_Example-acknowledgements.markdown */,
+				D35DEC5A6B9BF23A86278B2B9BB9B93E /* Pods-Volumer_Example-acknowledgements.plist */,
+				8764A9AE3EB13A2D551C1FF27A108A65 /* Pods-Volumer_Example-dummy.m */,
+				CFDFF808BCF9343473AE5C03382AAA00 /* Pods-Volumer_Example-frameworks.sh */,
+				F7B6F7757CC655B1B089235BDAC2F052 /* Pods-Volumer_Example-resources.sh */,
+				6B31D9199F9097FA0344420FDA6BD5C0 /* Pods-Volumer_Example-umbrella.h */,
+				797AB0384CCC37B0C9B3DFE02F85DE4E /* Pods-Volumer_Example.debug.xcconfig */,
+				27CE5D58026D34980987F78F6E178B7C /* Pods-Volumer_Example.release.xcconfig */,
+			);
+			name = "Pods-Volumer_Example";
+			path = "Target Support Files/Pods-Volumer_Example";
+			sourceTree = "<group>";
+		};
+		D3F5FD926BEAD3C7027C6FD50EC5997C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E035F59F63D18D70B24C8A8BF0F6078F /* Info.plist */,
+				E9351AC9D573C76BBD14B113DD0C307F /* Volumer.modulemap */,
+				D4AB6080E1070E10BB59FE3BED63389E /* Volumer.xcconfig */,
+				4632B0D4DC5E31D3AC2BF3925D9A82B9 /* Volumer-dummy.m */,
+				77E8E1A875F9983FAAB093574278565D /* Volumer-prefix.pch */,
+				A8C80C8783D2FC8CFA2101DF8C9B5793 /* Volumer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Volumer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3FA063C712A791ACB20F25471AC77AF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D37CF8C04E7EB0E8E699FA19A2F5A0C0 /* Pods-Volumer_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FE88F7BD5F37F4BBA3B81BDD801599A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8C2DE4B3A1E0E3DA4180DA7139BE519 /* Pods-Volumer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CF33883CC25C78A07885FC9D5418C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBC8E308A9A66CD818D945974A4F67F9 /* Volumer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		42EA9FC4EF63D90A4E540F67531EB667 /* Pods-Volumer_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2A53FF53123F5650E6FA324DEC3CEA /* Build configuration list for PBXNativeTarget "Pods-Volumer_Tests" */;
+			buildPhases = (
+				2D0E153F7E5ECB6326D890FB9809209E /* Sources */,
+				14BFA0AABA36B1184B6486E67750B12E /* Frameworks */,
+				3FA063C712A791ACB20F25471AC77AF2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13D8459DF07E446A8FF95BE8457D89DF /* PBXTargetDependency */,
+			);
+			name = "Pods-Volumer_Tests";
+			productName = "Pods-Volumer_Tests";
+			productReference = 1E93D7930C30D0F3D75824603289E526 /* Pods_Volumer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5299D9541EEAB4745A7844737B20521A /* Volumer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459373071FDF0AF85393F124AAAAA827 /* Build configuration list for PBXNativeTarget "Volumer" */;
+			buildPhases = (
+				4C3D7CA84F3EA898D7FD39EF3B3C1487 /* Sources */,
+				1462D786D10B03E4C1BEAF139E6FB192 /* Frameworks */,
+				BBEEFAEE13D2444EBD9810F25DFB5707 /* Resources */,
+				D9CF33883CC25C78A07885FC9D5418C8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA0E5FB0D5876023DA3618E085DF0CF2 /* PBXTargetDependency */,
+			);
+			name = Volumer;
+			productName = Volumer;
+			productReference = A5CC8710685FFA608DEC4C23405E694B /* Volumer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5F4582D68BA7E51B0E3D48B2CE86870F /* Volumer-Volumer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CE84BAACD5CE5B52F0BE122A90C971 /* Build configuration list for PBXNativeTarget "Volumer-Volumer" */;
+			buildPhases = (
+				6B4DB9CFFFEC75E4207A39791533564B /* Sources */,
+				F79D0F4024EB5050E4EE7CB79D910ED0 /* Frameworks */,
+				04708EEDB5CB8D50A36416E405D26FE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Volumer-Volumer";
+			productName = "Volumer-Volumer";
+			productReference = A3D6766E8E5E470CF2B79E0CEB9406E8 /* Volumer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A48B091888106FBDF8631B59F391CF07 /* Pods-Volumer_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7E2D7592BAFEC8587AD436AE12D7D6 /* Build configuration list for PBXNativeTarget "Pods-Volumer_Example" */;
+			buildPhases = (
+				7833E4749C723F4F43F2049A1352640F /* Sources */,
+				9C02423A89E3564AF3D02435A6728213 /* Frameworks */,
+				9FE88F7BD5F37F4BBA3B81BDD801599A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19515D1946820789B570F89F02863D8E /* PBXTargetDependency */,
+			);
+			name = "Pods-Volumer_Example";
+			productName = "Pods-Volumer_Example";
+			productReference = F0C3B7A45A9F06B8F5FE78E870CF3A29 /* Pods_Volumer_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AAF338184549441E9093E5044AAC710C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A48B091888106FBDF8631B59F391CF07 /* Pods-Volumer_Example */,
+				42EA9FC4EF63D90A4E540F67531EB667 /* Pods-Volumer_Tests */,
+				5299D9541EEAB4745A7844737B20521A /* Volumer */,
+				5F4582D68BA7E51B0E3D48B2CE86870F /* Volumer-Volumer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04708EEDB5CB8D50A36416E405D26FE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBEEFAEE13D2444EBD9810F25DFB5707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5518A196FFB9621004F32C943693463C /* Volumer.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0E153F7E5ECB6326D890FB9809209E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A3F0CA9BA5BAFA7D70E6B132CB82A8 /* Pods-Volumer_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C3D7CA84F3EA898D7FD39EF3B3C1487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085402352A5A09F789CD0C7A58293D6E /* Volumer.swift in Sources */,
+				F6F8C0CAE4A0B3C65A12EBCF3FB9238F /* Volumer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4DB9CFFFEC75E4207A39791533564B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7833E4749C723F4F43F2049A1352640F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CB4F0A155AD0D0E924289C240EC328 /* Pods-Volumer_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13D8459DF07E446A8FF95BE8457D89DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Volumer;
+			target = 5299D9541EEAB4745A7844737B20521A /* Volumer */;
+			targetProxy = 318F0BA3277B5B382E49804A7BD838E4 /* PBXContainerItemProxy */;
+		};
+		19515D1946820789B570F89F02863D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Volumer;
+			target = 5299D9541EEAB4745A7844737B20521A /* Volumer */;
+			targetProxy = 269283FABB9ECC6BD48BD401C2770AF7 /* PBXContainerItemProxy */;
+		};
+		FA0E5FB0D5876023DA3618E085DF0CF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Volumer-Volumer";
+			target = 5F4582D68BA7E51B0E3D48B2CE86870F /* Volumer-Volumer */;
+			targetProxy = 3F89553A2B010D5E1419391C68ABB851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10F958A36FD54C4573938B54A631795C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AB6080E1070E10BB59FE3BED63389E /* Volumer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Volumer/Volumer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Volumer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Volumer/Volumer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Volumer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44B1256184152B4B6CC29ACEEE0A6F68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AB6080E1070E10BB59FE3BED63389E /* Volumer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Volumer/Volumer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Volumer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Volumer/Volumer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Volumer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		586F06BEF0E34E6C9DF45E4ACDC5D518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CE5D58026D34980987F78F6E178B7C /* Pods-Volumer_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Volumer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Volumer_Example/Pods-Volumer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Volumer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A8F1E6FE13EE689F0EC5770B5C522F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656B71394725BFD032E076FF118812A0 /* Pods-Volumer_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Volumer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Volumer_Tests/Pods-Volumer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Volumer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71BF4B8259D7173D42763586F6AA61FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AB6080E1070E10BB59FE3BED63389E /* Volumer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Volumer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7BC44386037E7B8DEEDCFA6786A8952D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C65A881FEE47A2419C81E73C57B8EB /* Pods-Volumer_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Volumer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Volumer_Tests/Pods-Volumer_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Volumer_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8767B0B86E996EE62D9460158F9FD9E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AB6080E1070E10BB59FE3BED63389E /* Volumer.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Volumer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		C9F3671A768031A2E46C0025D6A81D11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797AB0384CCC37B0C9B3DFE02F85DE4E /* Pods-Volumer_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Volumer_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Volumer_Example/Pods-Volumer_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Volumer_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A7E2D7592BAFEC8587AD436AE12D7D6 /* Build configuration list for PBXNativeTarget "Pods-Volumer_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9F3671A768031A2E46C0025D6A81D11 /* Debug */,
+				586F06BEF0E34E6C9DF45E4ACDC5D518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459373071FDF0AF85393F124AAAAA827 /* Build configuration list for PBXNativeTarget "Volumer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B1256184152B4B6CC29ACEEE0A6F68 /* Debug */,
+				10F958A36FD54C4573938B54A631795C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2A53FF53123F5650E6FA324DEC3CEA /* Build configuration list for PBXNativeTarget "Pods-Volumer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8F1E6FE13EE689F0EC5770B5C522F3 /* Debug */,
+				7BC44386037E7B8DEEDCFA6786A8952D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5CE84BAACD5CE5B52F0BE122A90C971 /* Build configuration list for PBXNativeTarget "Volumer-Volumer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71BF4B8259D7173D42763586F6AA61FC /* Debug */,
+				8767B0B86E996EE62D9460158F9FD9E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

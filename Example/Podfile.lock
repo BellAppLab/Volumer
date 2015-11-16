@@ -1,0 +1,14 @@
+PODS:
+  - Volumer (0.1.0)
+
+DEPENDENCIES:
+  - Volumer (from `../`)
+
+EXTERNAL SOURCES:
+  Volumer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Volumer: 88ec6ca3c687664cdee98dfd137fb8fc7e2d25c4
+
+COCOAPODS: 0.39.0
