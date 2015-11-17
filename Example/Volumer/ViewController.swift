@@ -7,17 +7,30 @@
 //
 
 import UIKit
+import Volumer
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        //Register a volume up block
+        Volume.when(.Up) {
+            print("UP!")
+        }
+        
+        //Register a volume down block
+        Volume.Down.when {
+            print("Down")
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewDidDisappear(animated: Bool) {
+        
+        //Be sure to call this when you're finished
+        Volume.reset()
+        
+        super.viewDidDisappear(animated)
     }
 
 }

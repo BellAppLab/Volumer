@@ -18,5 +18,5 @@ A Swifty way to take control over the volume buttons on iOS. Inspired by: https:
 
   s.source_files = 'Pod/Classes/**/*'
 
-  s.frameworks = 'UIKit', 'AVFoundation', 'MediaPlayer'
+  s.frameworks = 'UIKit', 'MediaPlayer'
 end
