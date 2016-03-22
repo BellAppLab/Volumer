@@ -56,7 +56,7 @@ public enum Volume
             self.observer = Observer()
         }
         if let slider = self.volumeView?.slider {
-            slider.addTarget(self.observer, action: "sliderDidChange:", forControlEvents: .ValueChanged)
+            slider.addTarget(self.observer, action: #selector(Observer.sliderDidChange(_:)), forControlEvents: .ValueChanged)
         }
     }
     
@@ -67,7 +67,7 @@ public enum Volume
         }
         self.hasSetup = false
         if let slider = self.volumeView?.slider {
-            slider.removeTarget(self.observer, action: "sliderDidChange:", forControlEvents: .ValueChanged)
+            slider.removeTarget(self.observer, action: #selector(Observer.sliderDidChange(_:)), forControlEvents: .ValueChanged)
         }
         self.observer = nil
         self.volumeView.removeFromSuperview()
@@ -102,11 +102,12 @@ public enum Volume
     
     override init() {
         super.init()
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "willBecomeInactive:", name: UIApplicationWillResignActiveNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(Observer.willBecomeInactive(_:)), name: UIApplicationWillResignActiveNotification, object: nil)
     }
     
     @objc private func sliderDidChange(sender: UISlider) {
-        if activationCount-- > 0 {
+        activationCount -= 1
+        if activationCount > 0 {
             if self.initialValue == nil {
                 self.initialValue = sender.value
             }
