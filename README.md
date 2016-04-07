@@ -75,7 +75,7 @@ To install Volumer using git submodules:
 
 ```
 cd toYourProjectsFolder
-git submodule add -b Submodule --name Volumer https://github.com/BellAppLab/Alertable.git
+git submodule add -b Submodule --name Volumer https://github.com/BellAppLab/Volumer.git
 ```
 
 Navigate to the new Volumer folder and drag the Pods folder to your Xcode project.
