@@ -1,6 +1,0 @@
-framework module Volumer {
-  umbrella header "Volumer-umbrella.h"
-
-  export *
-  module * { export * }
-}
