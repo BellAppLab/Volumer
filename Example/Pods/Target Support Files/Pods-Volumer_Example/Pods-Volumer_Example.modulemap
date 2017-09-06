@@ -1,6 +1,0 @@
-framework module Pods_Volumer_Example {
-  umbrella header "Pods-Volumer_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
