@@ -39,7 +39,7 @@ public enum Volume
     
     private static var observer: Observer!
     
-    private static func setup()
+    public static func setup()
     {
         if self.hasSetup {
             return
@@ -60,7 +60,7 @@ public enum Volume
                                            for: .valueChanged)
     }
     
-    private static func unsetup()
+    public static func unsetup()
     {
         if !self.hasSetup {
             return
@@ -88,12 +88,7 @@ public enum Volume
 
 @objc private class Observer: NSObject
 {
-    private var initialValue: Float!
-    /*
-        Hacky way of preventing Volumer from firing its blocks when the MPVolumeView starts (and, for some reason, fires a .ValueChanged event twice)
-        Also, when moving from the background, MPVolumeView fires once more (for some reason)
-    */
-    private var activationCount = 2
+    private var currentValue: Float?
     private var notify = true
     
     deinit {
@@ -104,41 +99,35 @@ public enum Volume
         super.init()
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(Observer.willBecomeInactive(_:)),
-                                               name: .UIApplicationWillResignActive,
+                                               name: UIApplication.willResignActiveNotification,
                                                object: nil)
     }
     
     @objc fileprivate func sliderDidChange(_ sender: UISlider) {
-        activationCount -= 1
-        if activationCount > 0 {
-            if self.initialValue == nil {
-                self.initialValue = sender.value
-            }
-            return
-        }
-        if self.initialValue == nil {
+        if currentValue == nil {
+            currentValue = sender.value
             return
         }
         if !notify {
             notify = true
             return
         }
-        if sender.value == self.initialValue {
-            Volume.didChange(up: sender.value == 1.0)
-        } else {
-            Volume.didChange(up: sender.value > self.initialValue)
+        if sender.value == currentValue {
+            return
         }
+        Volume.didChange(up: sender.value > currentValue!)
+        currentValue = sender.value
         if Volume.keepIntact {
             notify = false
-            sender.value = self.initialValue
+            sender.value = currentValue!
         }
     }
     
     @objc fileprivate func willBecomeInactive(_ notification: NSNotification) {
-        activationCount = 1
-        self.initialValue = nil
+        currentValue = nil
     }
 }
+
 
 private extension MPVolumeView
 {
@@ -153,4 +142,3 @@ private extension Bool
         return self ? .up : .down
     }
 }
-
